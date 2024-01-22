@@ -269,10 +269,13 @@ ul {
 
 .portfolio-list {
   display: flex;
-  flex-basis: calc((100% - 48px) / 3);
   column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
+}
+
+.portfolio-list-el {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-card {
